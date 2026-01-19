@@ -1,8 +1,8 @@
 name: Auto-update submodule
 
 on:
-  schedule:
-    - cron: "*/10 * * * *"  #- cron: "0 10 * * 1"   # every monday around 12
+#  schedule:
+#    - cron: "*/10 * * * *"  #- cron: "0 10 * * 1"   # every monday around 12
   workflow_dispatch:     # manual trigger button
 
 jobs:
