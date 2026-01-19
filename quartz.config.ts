@@ -8,6 +8,12 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
+	siteMetadata: {
+      title: "In the name of war",
+      description: "Varyndor is a world of conflict, shaped by the ambitions of great people and the shadows of ancient powers.",
+      image: "/static/file.png",
+    },
+  
     pageTitle: "In the name of war",
     pageTitleSuffix: "",
     enableSPA: true,
